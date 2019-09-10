@@ -20,8 +20,10 @@ def compare_answers(num)
   
   if input == num
     return "You guessed the correct number!"
-  else
+  elsif input != num
     return "Sorry! The computer guessed #{num}."
+  elsif input == "exit"
+    goodbye_message
   end
 end
 
@@ -37,9 +39,6 @@ def run_guessing_game
   prompt_user
   get_user_input
   
-  if get_user_input == "exit"
-    goodbye_message
-  else
-    compare_answers(num)
-  end
+  compare_answers
+  
 end
