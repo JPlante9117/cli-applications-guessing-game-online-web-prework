@@ -3,7 +3,7 @@ def get_user_input
 end
 
 def generate_num
-  rand(1..6).to_a
+  rand(6)+1
 end
 
 def prompt_user
