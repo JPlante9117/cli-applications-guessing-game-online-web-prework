@@ -39,5 +39,6 @@ end
 def run_guessing_game
 if get_user_input == "exit"
   puts "Goodbye!"
+  elsif
 end
 end
