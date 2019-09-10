@@ -20,7 +20,7 @@ end
 
 
 def run_guessing_game
-  
+  get_user_input
   
   
   if get_user_input == "exit"
