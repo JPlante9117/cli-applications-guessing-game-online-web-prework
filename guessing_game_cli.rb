@@ -18,7 +18,7 @@ input = get_user_input
 
   if input == "exit"
     puts "Goodbye!"
-  elsif input == num + 1
+  elsif input == num
     puts "You guessed the correct number!"
   elsif input != num
     puts "Sorry! The computer guessed #{num}."
