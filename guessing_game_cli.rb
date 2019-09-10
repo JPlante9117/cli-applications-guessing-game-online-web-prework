@@ -24,6 +24,8 @@ def compare_answers(num)
     return "Sorry! The computer guessed #{num}."
   elsif input == "exit"
     goodbye_message
+  else
+    puts "Invalid Command"
   end
 end
 
