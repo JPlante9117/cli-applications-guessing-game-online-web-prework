@@ -1,7 +1,7 @@
 require 'pry'
 
 def get_user_input
-  gets.chomp
+  gets.chomp.to_s
 end
 
 def generate_num
@@ -9,7 +9,7 @@ def generate_num
 end
 
 def run_guessing_game
-num = generate_num
+num = generate_num.to_s
 input = get_user_input
 
   if input == "exit"
