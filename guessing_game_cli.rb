@@ -23,7 +23,7 @@ def run_guessing_game
   
   
   
-  
-  
-  goodbye_message
+  if get_user_input == "exit"
+    goodbye_message
+  end
 end
