@@ -9,6 +9,7 @@ def generate_num
 end
 
 def run_guessing_game
+  puts "Pick a number 1 through 6."
 num = generate_num.to_s
 input = get_user_input
 
