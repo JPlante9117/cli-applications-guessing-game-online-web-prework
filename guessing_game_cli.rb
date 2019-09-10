@@ -22,6 +22,7 @@ def compare_answers(num)
     return "You guessed the correct number!"
   else
     return "Sorry! The computer guessed #{num}."
+  end
 end
 
 
