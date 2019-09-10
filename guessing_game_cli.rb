@@ -1,5 +1,5 @@
 def get_user_input
-  gets.chomp
+  gets.chomp.to_s
 end
 
 def generate_num
@@ -35,8 +35,9 @@ end
 
 
 def run_guessing_game
-  num = generate_num
+  
   prompt_user
+  num = rand(1..6).to_s
   get_user_input
   
   compare_answers(num)
