@@ -20,7 +20,7 @@ input = get_user_input
     puts "Goodbye!"
   elsif input == num
     puts "You guessed the correct number!"
-  else input != num
+  elsif input != num
     puts "Sorry! The computer guessed #{num}."
   end
 end
