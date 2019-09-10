@@ -1,5 +1,5 @@
 def get_user_input
-  get.chomp
+  gets.chomp
 end
 
 def generate_num
