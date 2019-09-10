@@ -42,7 +42,7 @@ num = generate_num
 if get_user_input == "exit"
   puts "Goodbye!"
   elsif get_user_input != num
-    "Sorry! The computer guessed #{num}."
+    puts "Sorry! The computer guessed #{num}."
     
 end
 end
