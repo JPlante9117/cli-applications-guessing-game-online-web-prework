@@ -44,6 +44,8 @@ if input == "exit"
   puts "Goodbye!"
   elsif input != num
     puts "Sorry! The computer guessed #{num}."
+  elsif input == num
+    puts "You guessed the correct number!"
     
 end
 end
