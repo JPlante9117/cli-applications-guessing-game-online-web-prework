@@ -37,5 +37,13 @@ end
 
 
 def run_guessing_game
-compare_answers
+num = generate_num
+input = get_user_input
+
+if get_user_input == "exit"
+  puts "Goodbye!"
+  elsif get_user_input != num
+    puts "Sorry! The computer guessed #{num}."
+    
+end
 end
