@@ -37,9 +37,9 @@ def run_guessing_game
   prompt_user
   get_user_input
   
-  compare_answers(num)
-  
   if get_user_input == "exit"
     goodbye_message
+  else
+    compare_answers(num)
   end
 end
