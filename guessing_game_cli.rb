@@ -12,28 +12,6 @@ def prompt_user
   puts "Guess a number 1 through 6!"
 end
 
-def compare_answers(num)
-  num = generate_num
-  input = get_user_input
-  
-  if input == "exit"
-    goodbye_message
-  elsif input != num
-    return "Sorry! The computer guessed #{num}."
-  elsif input == num
-    "You guessed the correct number!"
-  else
-    puts "Invalid Command"
-  end
-end
-
-
-
-
-
-
-
-
 def run_guessing_game
 num = generate_num
 input = get_user_input
