@@ -24,7 +24,7 @@ def compare_answers(num)
     goodbye_message
   elsif input != num
     return "Sorry! The computer guessed #{num}."
-  elsif input == "exit"
+  elsif input == num
     "You guessed the correct number!"
   else
     puts "Invalid Command"
@@ -42,12 +42,11 @@ def run_guessing_game
 num = generate_num
 input = get_user_input
 
-if input == "exit"
-  puts "Goodbye!"
+  if input == "exit"
+    puts "Goodbye!"
   elsif input != num
     puts "Sorry! The computer guessed #{num}."
   elsif input == num
     puts "You guessed the correct number!"
-    
-end
+  end
 end
