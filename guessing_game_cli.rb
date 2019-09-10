@@ -39,6 +39,6 @@ def run_guessing_game
   prompt_user
   get_user_input
   
-  compare_answers
+  compare_answers(num)
   
 end
