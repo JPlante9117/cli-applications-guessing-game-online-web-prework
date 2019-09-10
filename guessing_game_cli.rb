@@ -35,10 +35,6 @@ end
 
 
 def run_guessing_game
-  if get_user_input == "exit"
-    goodbye_message
-  end
-  
   num = generate_num
   prompt_user
   get_user_input
