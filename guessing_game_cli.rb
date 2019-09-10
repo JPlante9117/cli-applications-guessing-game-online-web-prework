@@ -1,6 +1,6 @@
 require 'pry'
 
-def get_user_input
+=begin def get_user_input
   gets.chomp.to_s
 end
 
@@ -23,4 +23,5 @@ input = get_user_input
   elsif input == num
     puts "You guessed the correct number!"
   end
-end
+end =end
+
