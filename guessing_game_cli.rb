@@ -12,10 +12,6 @@ def prompt_user
   puts "Guess a number 1 through 6!"
 end
 
-def goodbye_message
-  puts "Goodbye!"
-end
-
 def compare_answers(num)
   num = generate_num
   input = get_user_input
