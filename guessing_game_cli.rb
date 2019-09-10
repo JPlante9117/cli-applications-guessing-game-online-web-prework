@@ -41,7 +41,7 @@ num = generate_num
 input = get_user_input
 
 if get_user_input == "exit"
-  puts "Goodbye!"
+  goodbye_message
   elsif get_user_input != num
     puts "Sorry! The computer guessed #{num}."
     
